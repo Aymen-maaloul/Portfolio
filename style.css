@@ -866,7 +866,7 @@ margin-top: 70px;
    }
    #tech1>div{
       display: flex;
-      gap: 200px;
+      gap: 2.5rem;
       width: 100%;
       margin-left: 7%;
       flex-wrap: wrap;
@@ -876,6 +876,8 @@ margin-top: 70px;
       width: 65px;
   height: 65px;
   flex-shrink: 0;
+        margin-left: 10px;
+
   background-color: #FFF;
   opacity: 1;
   border-radius: 100px;
@@ -895,6 +897,9 @@ margin-top: 70px;
       width: 58px;
       margin-top: 13px;
    }
+        .html{
+   margin-left: 0px;
+  }
   
    .arduino{
       width: 47px;
