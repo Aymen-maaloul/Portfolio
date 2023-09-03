@@ -33,21 +33,33 @@ $(document).ready(function(){
   });
   $(".home").click(function(){
     $("li").fadeOut();
+    $(".ml").fadeIn();
+    $(".nl").fadeOut(500);
+    $(".aymendev").fadeIn();
 });
 $(".about").click(function(){
   $("li").fadeOut();
+  $(".ml").fadeIn();
+  $(".nl").fadeOut(500);
+  $(".aymendev").fadeIn();
 });
 $(".projects").click(function(){
 $("li").fadeOut();
+$(".ml").fadeIn();
+$(".nl").fadeOut(500);
+$(".aymendev").fadeIn();
 });
 $(".contact").click(function(){
 $("li").fadeOut();
+$(".ml").fadeIn();
+$(".nl").fadeOut(500);
+$(".aymendev").fadeIn();
 });
   $(".nl").click(function(){
       $("li").fadeOut(500);
       $(".ml").fadeIn();
       $(".nl").fadeOut(500);
-      $(".aymendev").fadeIn()
+      $(".aymendev").fadeIn();
   });
   setTimeout(function(){
       $(".custom-loader").fadeToggle();
