@@ -745,6 +745,16 @@ margin-top: 70px;
       
    }
    @media screen and (max-width:767px){
+      .nl{
+         display: none;
+         background: none;
+         border: none;
+         position: fixed;
+      }
+      .ml{
+         background: none;
+         border: none;
+      }
       nav{
          align-items: center;
          background-color: #fff;
@@ -760,7 +770,7 @@ margin-top: 70px;
      nav>ul>li>a{
       text-decoration: none;
       color: #000;
-  font-family: Poppins;
+      font-family: 'Poppins',sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -769,26 +779,38 @@ margin-top: 70px;
       .sv{
          display: flex;
          margin-left: 80%;
-         margin-top: -38px;
+         margin-top: -30px;
       }
       .home,.about,.projects,.contact{
          text-decoration: none;
          color: #000;
-     font-family: Poppins;
+     font-family: 'Poppins',sans-serif;
      font-size: 17px;
      font-style: normal;
+     margin-left: 40%;
      font-weight: 600;
      line-height: normal;
      }
      ul{
          padding-top: 40px;
+         
+     font-family: 'Poppins',sans-serif;
          padding-left: 3%;
+         height: 100%;
+         z-index: 10000;
      }
      li{
          display: none;
+         background-color: #ffffff;
+         width: 100%;
+         height: 100%;
+
      }
      .aymendev{
       display: contents;
+      
+     font-family: 'Poppins',sans-serif;
+      background: none;
      }
      .links{
          padding-left: 65%;
@@ -831,6 +853,7 @@ margin-top: 70px;
   #social{
       margin-left: 5%;
       margin-top:20px;
+      background-color: red;
    }
    .social>tr>a>svg{
       fill:#2d2e32;
@@ -866,7 +889,7 @@ margin-top: 70px;
    }
    #tech1>div{
       display: flex;
-      gap: 2.5rem;
+      gap: 5px;
       width: 100%;
       margin-left: 5%;
       flex-wrap: wrap;
@@ -876,10 +899,9 @@ margin-top: 70px;
       width: 65px;
   height: 65px;
   flex-shrink: 0;
-        margin-left: 10px;
-
   background-color: #FFF;
   opacity: 1;
+  margin-left: 10px;
   border-radius: 100px;
   align-items: center;
   justify-content: center;
@@ -889,6 +911,9 @@ margin-top: 70px;
    #tech>div>center>img{
 
   }
+  .html{
+   margin-left: 0px;
+  }
   .html,.css,.figma,.python{
       width: 40px;
       margin-top: 13px;
@@ -897,9 +922,6 @@ margin-top: 70px;
       width: 58px;
       margin-top: 13px;
    }
-        .html{
-   margin-left: 0px;
-  }
   
    .arduino{
       width: 47px;
@@ -1039,7 +1061,7 @@ line-height: normal;
 .k>center{
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 22px;
 }
 .html1{
   width: 75px;
