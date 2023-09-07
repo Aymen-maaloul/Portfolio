@@ -53,6 +53,8 @@ $(".nl").fadeOut(500);
 $(".aymendev").fadeIn();
 });
   $(".nl").click(function(){
+      
+      $("li").fadeOut(500);
       $(".ml").fadeIn();
       $(".nl").fadeOut(500);
       $(".aymendev").fadeIn();
